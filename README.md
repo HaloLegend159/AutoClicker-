@@ -1,4 +1,4 @@
-# AutoClicker-
+# Advanced AutoClicker
 
 A powerful, feature-rich Windows autoclicker with support for complex sequences, multiple simultaneous holds, and customizable global hotkeys.
 
