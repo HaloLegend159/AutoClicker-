@@ -2,6 +2,25 @@
 
 All notable changes to Advanced AutoClicker will be documented in this file.
 
+## [1.1.0] - 2026-03-20
+
+### Added
+- **Update Settings**: New "Update Settings" section in the app
+  - Checkbox to disable automatic update checks on startup
+  - "Select Version to Install" button to choose and install any previous version
+  - Shows current version for reference
+- **Version Downgrade/Upgrade**: Can now install any previous release from GitHub
+  - Lists all available versions
+  - One-click installation with automatic restart
+  - Settings and profiles preserved during version changes
+
+### Changed
+- **Cleaner UI**: Removed "(F6)" and "(F7)" text from Start/Stop buttons since hotkeys are customizable
+- **Settings Persistence**: Update preferences now save automatically
+
+### Fixed
+- Update check respects user preference (can be disabled)
+
 ## [1.0.0] - 2026-03-19
 
 ### Added
