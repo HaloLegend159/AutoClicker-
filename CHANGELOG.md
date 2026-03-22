@@ -2,6 +2,24 @@
 
 All notable changes to Advanced AutoClicker will be documented in this file.
 
+## [1.2.0] - 2026-03-21
+
+### Fixed
+- **CRITICAL**: Fixed crash on close when installed in Program Files
+  - Settings now save to AppData folder instead (no permission issues!)
+  - Settings location: `C:\Users\{YourName}\AppData\Roaming\AdvancedAutoClicker\`
+
+### Changed
+- **No .NET Installation Required!** Now distributed as self-contained single-file executable
+  - Download size increased (~70MB vs 500KB) but no separate .NET download needed
+  - Just download, extract, and run - instant setup!
+  - Much more professional user experience
+
+### Technical
+- Settings and profiles automatically migrate to AppData on first run
+- Build now uses .NET 6.0 self-contained deployment
+- Single EXE file includes all dependencies
+
 ## [1.1.0] - 2026-03-20
 
 ### Added
